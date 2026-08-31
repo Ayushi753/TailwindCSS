@@ -4,9 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Document</title>
+    <title>Facebook _Login_Page</title>
 </head>
-<body>
-    <h1>Facebook Login Page</h1>
+<body class="bg-gray-100">
+
+  <div class="min-h-screen flex items-center justify-center">
+
+    <!-- Main Container -->
+    <div class="w-full max-w-5xl flex items-center justify-between gap-12 px-6">
+
+      <!-- LEFT SIDE -->
+      <div class="w-1/2">
+
+        <!-- Facebook Logo -->
+        <h1 class="text-blue-600 text-6xl font-bold">
+          facebook
+        </h1>
+
+        <!-- Description -->
+        <p class="text-2xl mt-4 text-gray-800">
+          Facebook helps you connect and share with the
+          people in your life.
+        </p>
+
+      </div>
+
+
+      <!-- RIGHT SIDE -->
+      <div class="w-[400px]">
+
+        <!-- Login Box -->
+        <div class="bg-white p-4 rounded-lg shadow-lg">
+
+          <input
+            type="text"
+            placeholder="Email address or phone number"
+            class="w-full border border-gray-300 rounded-md p-4 mb-3 outline-none focus:border-blue-500"
+          >
+
+          <input
+            type="password"
+            placeholder="Password"
+            class="w-full border border-gray-300 rounded-md p-4 mb-4 outline-none focus:border-blue-500"
+          >
+
+          <button
+            class="w-full bg-blue-600 text-white text-xl font-bold py-3 rounded-md hover:bg-blue-700"
+          >
+            Log In
+          </button>
+
+          <p class="text-center text-blue-600 mt-4 cursor-pointer">
+            Forgotten password?
+          </p>
+
+          <hr class="my-5">
+
+          <button
+            class="block mx-auto bg-green-600 text-white font-bold px-5 py-3 rounded-md"
+          >
+            Create new account
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
 </body>
 </html>
