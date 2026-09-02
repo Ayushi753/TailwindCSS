@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Midnight Café</title>
+</head>
+
+<body class="bg-slate-950 min-h-screen flex items-center justify-center">
+
+    <!-- Main Box -->
+    <div class="w-[380px] bg-slate-900 text-white rounded-3xl p-8 shadow-2xl">
+
+        <!-- Top -->
+        <div class="flex justify-between items-center">
+            <h2 class="text-xl font-bold">☕ midnight.</h2>
+
+            <span class="text-xs text-slate-400">
+                OPEN NOW
+            </span>
+        </div>
+
+        <!-- Heading -->
+        <div class="mt-12">
+
+            <p class="text-purple-400 text-sm font-semibold">
+                COFFEE • MUSIC • NIGHTS
+            </p>
+
+            <h1 class="text-5xl font-bold leading-tight mt-3">
+                Stay a little
+                <span class="text-purple-400">longer.</span>
+            </h1>
+
+            <p class="text-slate-400 mt-5 leading-relaxed">
+                Good coffee, quiet music and conversations
+                that somehow last until midnight.
+            </p>
+
+        </div>
+
+        <!-- Button -->
+        <button class="mt-8 w-full bg-purple-500 py-3 rounded-xl
+                       font-semibold hover:bg-purple-600
+                       transition duration-300">
+            Find your table →
+        </button>
+
+        <!-- Bottom -->
+        <div class="flex justify-between mt-6 text-sm text-slate-500">
+            <span>📍 Downtown</span>
+            <span>11 PM — 2 AM</span>
+        </div>
+
+    </div>
+
+</body>
+</html>
