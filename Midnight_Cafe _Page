@@ -23,7 +23,7 @@
             </span>
         </div>
 
-        <!-- Heading -->
+        <!-- Heading ------>
         <div class="mt-12">
 
             <p class="text-purple-400 text-sm font-semibold">
@@ -59,3 +59,5 @@
 
 </body>
 </html>
+
+
